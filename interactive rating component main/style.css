@@ -1,0 +1,133 @@
+:root {
+  --Orange: hsl(25, 97%, 53%);
+  --White: hsl(0, 0%, 100%);
+  --Light-Grey: hsl(217, 12%, 63%);
+  --Dark-Blue: hsl(213, 19%, 15%);
+  --Very-Dark-Blue: hsl(216, 12%, 8%);
+  --Light-Grey2: hsl(217, 12%, 19%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  background-color: var(--Very-Dark-Blue);
+}
+
+.container {
+  max-width: 325px;
+  width: 85%;
+  margin: 100px auto;
+  background-color: var(--Dark-Blue);
+  padding: 20px;
+  border-radius: 0.8rem;
+  color: var(--White);
+}
+
+/*  CARD  */
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.star-img {
+  padding: 0.6rem;
+  background-color: var(--Light-Grey2);
+  border-radius: 50%;
+}
+
+.card-title {
+  font-size: 1.4rem;
+}
+
+.card-paragraph {
+  font-size: 0.8rem;
+  color: var(--Light-Grey);
+  word-spacing: 3px;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.rating {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin: 15px 0;
+}
+
+.rating-btn {
+  background-color: var(--Light-Grey2);
+  padding: 15px 20px;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.card-button {
+  background-color: var(--Orange);
+  width: 90%;
+  margin: 0 auto;
+  color: var(--Dark-Blue);
+  padding: 10px 30px;
+  border-radius: 24px;
+  text-align: center;
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+.rating-btn:hover {
+  background-color: var(--Orange);
+  cursor: pointer;
+}
+
+.card-button:hover {
+  background-color: var(--White);
+  cursor: pointer;
+}
+
+/* CARD THANK YOU */
+
+.container-ty {
+  display: none;
+}
+
+.card-ty {
+  align-items: center;
+}
+
+.ilustration {
+  margin-top: 15px;
+}
+
+.ilustration-img {
+  width: 145px;
+}
+
+.number-seletion {
+  color: var(--Orange);
+  background-color: var(--Light-Grey2);
+  font-size: 0.8rem;
+  padding: 10px 12px;
+  border-radius: 24px;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.thank-you-title {
+  font-size: 1.3rem;
+}
+
+.thank-you-paragraph {
+  font-size: 0.8rem;
+  text-align: center;
+  margin-bottom: 0.7rem;
+  color: var(--Light-Grey);
+  line-height: 1.5;
+  font-weight: 700;
+}
