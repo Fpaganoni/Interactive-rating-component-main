@@ -7,6 +7,10 @@
   --Light-Grey2: hsl(217, 12%, 19%);
 }
 
+input {
+  display: none;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
